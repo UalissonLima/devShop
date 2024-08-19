@@ -1,0 +1,58 @@
+.containerConteudoDescricao {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin-top: 50px;
+  }
+
+  .containerImagem {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+  }
+
+  .containerImagem img {
+    width: 45%;
+    margin-right: 25px;
+  }
+
+  .cotaineirDescricao {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .cotaineirDescricao strong {
+    font-size: 22px;
+    text-align: justify;
+  }
+
+  .cotaineirDescricao p{
+   text-align: justify;
+   font-size: 16px;
+   line-height: 25px;
+  }
+
+  .cotainerBtnAddCart {
+    display: flex;
+    gap: 5px;
+    width: max-content;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .cotainerBtnAddCart p {
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .cotainerBtnAddCart button{
+    background-color: rgb(24 24 27);
+    border-radius: 5px;
+    padding: 4px;
+  }
